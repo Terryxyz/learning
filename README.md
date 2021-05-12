@@ -1,7 +1,7 @@
 # learning
 
 ## Overview
-This project is to use a data-driven learning-based approach to improve the performance of the scooping technique. I design a neural network to predict a set of parameters given the RGB-D image of the bin scenario. There are in total 5 parameters of scooping: the finger contact position p, the angle between the finger direction and the vertical direction (i.e., the pitch angle) alpha, the horizontal orientation of the gripper rotated around the vertical direction (i.e., the yaw angle) beta, the gripper aperture, and the finger length differecne. So far, I considered two parameters: the finger contact position p and the yaw angle beta. Other parameters are set as a fixed value. The whole data collecting process is as follows.
+This project is to use a data-driven learning-based approach to improve the performance of the scooping technique. I design a neural network to predict a set of parameters given the RGB-D image of the bin scenario. There are in total 5 parameters of scooping: the finger contact position p, the angle between the finger direction and the vertical direction (i.e., the pitch angle) alpha, the horizontal orientation of the gripper rotated around the vertical direction (i.e., the yaw angle) beta, the gripper aperture, and the finger length differecne. So far, I considered two parameters: the finger contact position p and the yaw angle beta. Other parameters are set as a fixed value.
 
 ## Dataset
 ### 1. For pre-training the network
