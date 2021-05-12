@@ -11,5 +11,8 @@ So far, I considered two parameters: the finger contact position p and the yaw a
 <img src="IMG/get_heightmap.png" width="400"> 
 </p>
 
-2. The input is a cropped image instead of the whole image. Given a cropped image, we rotated the image for 8 discrete directions (multiples of 45 degrees). Then, we label the "good" points and "bad" points denoting the "good" fingertip contact positions and the "bad" ones if the robot scoops from top to down.
+2. The input is a cropped image instead of the whole image. Given a cropped image, we rotated the image for 8 discrete directions (multiples of 45 degrees). Then, we label the "good" points and "bad" points denoting the "good" fingertip contact positions and the "bad" ones if the robot scoops from top to down. There are 200*8*9 data in total.
+<p align = "center">
+<img src="IMG/label.png" width="400"> 
+</p>
 
