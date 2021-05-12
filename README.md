@@ -25,6 +25,8 @@ We use a Realsense SR300 camera to get the RGB image and the depth image. Then, 
 ```
 python utils/heightmap.py
 ```
+- [**RGB-D Heightmap**](https://drive.google.com/file/d/1e2mthzXt8YYgJAtQHj9AOsfDxgdWG1B9/view?usp=sharing)
+
 ### 2. Make pre-train dataset
 -Input: RGB heightmap and depth heightmap
 -Output: The dataset for the pre-train model
@@ -33,5 +35,16 @@ python collecting_data_annotating_20210503.py
 ```
 ### 3. Collect data in real experiments
 ```
-python 
+python data_collection_20210419.py
 ```
+### 4. Train the network
+-Input: Dataset that includes heightmap images and ground truth label
+-Output: Model weights
+```
+training_network.ipynb
+```
+
+## Experiment results
+### Tested with homogeneous cluster (Go stones)
+See the video [**video**](https://drive.google.com/file/d/1G2FsejujWb6jwdD0h7qPaAmYiRuIUOz8/view?usp=sharing)
+Number of training data: 11016        Success rate: 67.5%
