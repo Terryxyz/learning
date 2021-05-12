@@ -16,7 +16,7 @@ So far, I considered two parameters: the finger contact position p and the yaw a
 <img src="IMG/label.png" width="700"> 
 </p>
 
-3. The structure of the neural network is as follows. There are two modules: a perception module and a gripper pose module. The input is a cropped image rotated by 8 directions and the output is also eight images of the same dimension, where each pixel shows the score of scooping performed at the corresponding position along the corresponding direction.
+3. The structure of the neural network is as follows. There are two modules: a perception module and a gripper pose module. The input is a cropped image rotated by 8 directions and the output is also eight images of the same dimension, where each pixel shows the score of scooping performed at the corresponding position along the corresponding direction. The red circle is the pixwl with the highest score, which is near the edge of the Go stone.
 <p align = "center">
 <img src="IMG/network_structure.png" width="1000"> 
 </p>
