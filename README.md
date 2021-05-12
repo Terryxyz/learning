@@ -5,7 +5,7 @@ This project is to use a data-driven learning-based approach to improve the perf
 
 ## Dataset
 ### 1. For pre-training the network
-This dataset includes a) RGB heightmap images showing the real scene of objects, b) 2-D arrays for ground truth labels The groud truth label is of the same size as the RGB heightmap, and obtained following our model-based scooping method. Each point in the label is associated with a class that represents for a background or successful/failed dig-grasp. Here shows an example (grey good, black bad):
+This dataset includes a) RGB heightmap images showing the real scene of objects, b) 2-D arrays for ground truth labels. The groud truth label is of the same size as the RGB heightmap, and obtained following our model-based scooping method. Each point in the label is associated with a class that represents for a background or successful/failed scooping. Here shows an example (grey good, black bad):
 <p align = "center">
 <img src="IMG/rgb_image_small0.png" width="200" > 
 <img src="IMG/annotated_image_small0.png" width="200" > 
@@ -15,7 +15,7 @@ Other data can be found via:
 - [**Pre-train dataset for Go stone only**](https://drive.google.com/file/d/1qnOIFxh_5_OnTRBZUbzfDs9sMq53qkvo/view?usp=sharing)
 
 ### 2. For training the network in real
-Given the pre-trained network, we collect the data by the robot performs trial and errer in real experiments. The ground truth label is obtained by a successful/failed dig-grasp in the real experiment.
+Given the pre-trained network, we collect the data by the robot performs trial and errer in real experiments. The ground truth label is obtained by a successful/failed scooping in the real experiment.
 Some data can be found in
 - [**Training dataset from real**](https://drive.google.com/file/d/1Nmoh4N131Zmme9zlvJsgGLI3hMlcUiGU/view?usp=sharing)
 
