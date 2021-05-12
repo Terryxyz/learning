@@ -11,8 +11,13 @@ So far, I considered two parameters: the finger contact position p and the yaw a
 <img src="IMG/get_heightmap.png" width="400"> 
 </p>
 
-2. The input is a cropped image instead of the whole image. Given a cropped image, we rotated the image for 8 discrete directions (multiples of 45 degrees). Then, we annotate the "good" points and "bad" points denoting the "good" fingertip contact positions and the "bad" ones if the robot scoops from top to down. There are 14400 data in total. I wrote a python program to annotate the data in an autonomous manner.
+2. The input is a cropped image instead of the whole image. Given a cropped image, we rotated the image by 8 discrete directions (multiples of 45 degrees). Then, we annotate the "good" points and "bad" points denoting the "good" fingertip contact positions and the "bad" ones if the robot scoops from top to down. There are 14400 data in total. I wrote a python program to annotate the data in an autonomous manner.
 <p align = "center">
 <img src="IMG/label.png" width="700"> 
+</p>
+
+3. The structure of the neural network is as follows. There are two modules: a perception module and a gripper pose module. The input is a cropped image rotated by 8 directions and the output is also eight images of the same dimension, where each pixel shows the score of scooping performed at the corresponding position along the corresponding direction.
+<p align = "center">
+<img src="IMG/network_structure.png" width="1000"> 
 </p>
 
