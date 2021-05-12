@@ -5,7 +5,7 @@ This project is to use a data-driven learning-based approach to improve the perf
 
 ## Dataset
 ### 1. For pre-training the network
-This dataset includes a) RGB heightmap images showing the real scene of objects, b) 2-D arrays for ground truth labels. The groud truth label is of the same size as the RGB heightmap, and obtained following our model-based scooping method. Each point in the label is associated with a class that represents for a background or successful/failed scooping. Here shows an example (grey good, black bad):
+This dataset includes a) RGB heightmap images showing the real scene of objects, b) 2-D arrays for ground truth labels. The groud truth label is of the same size as the RGB heightmap, and obtained following our model-based scooping method. Each point in the label is associated with a class that represents for a background or successful/failed scooping. Here shows an example (grey: good, black: bad, white: background):
 <p align = "center">
 <img src="IMG/rgb_image_small0.png" width="200" > 
 <img src="IMG/annotated_image_small0.png" width="200" > 
