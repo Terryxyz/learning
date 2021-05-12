@@ -11,7 +11,7 @@ So far, I considered two parameters: the finger contact position p and the yaw a
 <img src="IMG/get_heightmap.png" width="400"> 
 </p>
 
-2. The input is a cropped image instead of the whole image. Given a cropped image, we rotated the image by 8 discrete directions (multiples of 45 degrees). Then, we annotate the "good" points and "bad" points denoting the "good" fingertip contact positions and the "bad" ones if the robot scoops from top to down. There are 14400 data in total. I wrote a python program to annotate the data in an autonomous manner.
+2. The input is a cropped image instead of the whole image. Given a cropped image, we rotated the image by 8 discrete directions (multiples of 45 degrees). Then, we annotate the "good" points and "bad" points denoting the "good" fingertip contact positions and the "bad" ones if the robot scoops from top to down. There are about 11000 data in total. I wrote a python program to annotate the data in an autonomous manner.
 <p align = "center">
 <img src="IMG/label.png" width="700"> 
 </p>
@@ -20,4 +20,6 @@ So far, I considered two parameters: the finger contact position p and the yaw a
 <p align = "center">
 <img src="IMG/network_structure.png" width="1000"> 
 </p>
+
+I trained 12 epochs and tested on the real robot. The success rate is 67.5% for picking Go stone.
 
