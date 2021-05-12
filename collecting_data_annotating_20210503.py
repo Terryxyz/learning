@@ -231,29 +231,6 @@ def main():
             
 if __name__ == '__main__':
     main()
-    '''
-    input_array0 = np.load("/home/terry/catkin_ws/src/dg_learning_real_one_net/data_20210424/input_data_array_0.npy")
-    input_array1 = np.load("/home/terry/catkin_ws/src/dg_learning_real_one_net/data_20210424/input_data_array_1.npy")
-    input_array2 = np.load("/home/terry/catkin_ws/src/dg_learning_real_one_net/data_20210424/input_data_array_2.npy")
-    input_array3 = np.load("/home/terry/catkin_ws/src/dg_learning_real_one_net/data_20210424/input_data_array_3.npy")
-    input_array = np.concatenate((np.concatenate((np.concatenate((input_array0, input_array1), axis = 0), input_array2), axis=0), input_array3), axis = 0)
-    np.save("/home/terry/catkin_ws/src/dg_learning_real_one_net/data_20210424/input_data_array.npy", input_array)
-
-    label_array0 = np.load("/home/terry/catkin_ws/src/dg_learning_real_one_net/data_20210424/label_data_array_0.npy")
-    label_array1 = np.load("/home/terry/catkin_ws/src/dg_learning_real_one_net/data_20210424/label_data_array_1.npy")
-    label_array2 = np.load("/home/terry/catkin_ws/src/dg_learning_real_one_net/data_20210424/label_data_array_2.npy")
-    label_array3 = np.load("/home/terry/catkin_ws/src/dg_learning_real_one_net/data_20210424/label_data_array_3.npy")
-    label_array = np.concatenate((np.concatenate((np.concatenate((label_array0, label_array1), axis = 0), label_array2), axis=0), label_array3), axis = 0)
-    np.save("/home/terry/catkin_ws/src/dg_learning_real_one_net/data_20210424/label_data_array.npy", label_array)
-    '''
-    '''
-    bbb = np.ones((200, 200))
-    ddd = np.ones((200, 200))*3
-    ccc = scipy.ndimage.rotate(bbb, 45, reshape=False)
-    ddd[ccc==0]=255
-    ccc[ccc==1]=0
-    print(3 in ddd)
-    '''
 
     
     
