@@ -51,5 +51,5 @@ python utils/heightmap.py
 ### 2. Make pre-train dataset
 -Input: RGB heightmap and depth heightmap
 ```
-python data_annotation_label_all_shape.py
+python collecting_data_annotating_20210503.py
 
