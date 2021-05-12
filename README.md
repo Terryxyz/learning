@@ -29,7 +29,7 @@ python utils/heightmap.py
 
 ### 2. Make pre-train dataset
 -Input: RGB heightmap and depth heightmap
--Output: The weight for the pre-train model
+-Output: The dataset for the pre-train model
 ```
 python collecting_data_annotating_20210503.py
 ```
