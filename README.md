@@ -15,7 +15,7 @@ Other data can be found via:
 - [**Pre-train dataset for Go stone only**](https://drive.google.com/file/d/1qnOIFxh_5_OnTRBZUbzfDs9sMq53qkvo/view?usp=sharing)
 
 ### 2. For training the network in real
-Given the pre-trained network, we collect the data by the robot performs trial and errer in real experiments. The ground truth label is obtained by a successful/failed scooping in the real experiment.
+We also collect the data by the robot performs trial and errer in real experiments. The ground truth label is obtained by a successful/failed scooping in the real experiment.
 Some data can be found in
 - [**Training dataset from real**](https://drive.google.com/file/d/1Nmoh4N131Zmme9zlvJsgGLI3hMlcUiGU/view?usp=sharing)
 
