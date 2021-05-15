@@ -13,7 +13,7 @@ This dataset includes a) RGB heightmap images showing the real scene of objects,
 
 Other data can be found via:
 - [**Pre-train dataset for Go stone only**](https://drive.google.com/file/d/1qnOIFxh_5_OnTRBZUbzfDs9sMq53qkvo/view?usp=sharing)
-- [**Pre-train dataset for heterogeneous cluster only**](https://drive.google.com/file/d/1V98Tcm_37JKAvwliSrOsffvuhfS2NssE/view?usp=sharing)
+- [**Pre-train dataset for heterogeneous cluster**](https://drive.google.com/file/d/1V98Tcm_37JKAvwliSrOsffvuhfS2NssE/view?usp=sharing)
 
 ### 2. For training the network in real
 We also collect the data by the robot performs trial and errer in real experiments. The ground truth label is obtained by a successful/failed scooping in the real experiment.
